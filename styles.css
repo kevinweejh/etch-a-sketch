@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.rowDiv {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cellDiv {
+    border-style: solid;
+    border-width: 1px;
+}
